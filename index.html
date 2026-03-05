@@ -3,12 +3,85 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Landing Page</title>
+<title>Landing Page Juan Jose Uribe Parra</title>
+
+<style>
+
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#080808;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav ul{
+list-style:none;
+padding:0;
+}
+
+nav li{
+display:inline;
+margin:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+section{
+padding:30px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+table, th, td{
+border:1px solid black;
+text-align:center;
+padding:10px;
+}
+
+.productos{
+display:flex;
+gap:20px;
+}
+
+.producto{
+background:white;
+padding:20px;
+text-align:center;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.logo{
+display:block;
+margin:auto;
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header id="inicio">
+
+<img src="img/Logo.png" width="150" class="logo">
 
 <h1>Mi Empresa</h1>
 
@@ -30,7 +103,7 @@
 
 <h2>Nuestra Historia</h2>
 
-<p>Estos son algunos momentos importantes de nuestra empresa.</p>
+<p>Momentos importantes de nuestra empresa.</p>
 
 <table>
 
@@ -58,52 +131,65 @@
 
 </section>
 
-
 <section id="productos">
 
 <h2>Productos</h2>
 
-<p>Estos son algunos de nuestros productos principales:</p>
+<div class="productos">
 
-<ul>
-<li>Producto tecnológico</li>
-<li>Producto innovador</li>
-<li>Producto premium</li>
-</ul>
+<div class="producto">
+<img src="img/pruducto1.jfif" width="300">
+<h3>Producto 1</h3>
+<p>Producto innovador.</p>
+</div>
+
+<div class="producto">
+<img src="img/producto2.jpg" width="300">
+<h3>Producto 2</h3>
+<p>Alta calidad garantizada.</p>
+</div>
+
+<div class="producto">
+<img src="img/producto 3.png" width="300">
+<h3>Producto 3</h3>
+<p>Diseño moderno.</p>
+</div>
+
+</div>
 
 </section>
-
 
 <section id="galeria">
 
 <h2>Galería</h2>
 
-<p>Algunas imágenes representativas.</p>
-
 <table>
 
 <tr>
-<td>Imagen 1</td>
-<td>Imagen 2</td>
-<td>Imagen 3</td>
+<td><img src="img/galeria 1.png" width="300"></td>
+<td><img src="img/galeria 2.jpg" width="300"></td>
+<td><img src="img/Galeria 3.png" width="300"></td>
 </tr>
 
 <tr>
-<td>Imagen 4</td>
-<td>Imagen 5</td>
-<td>Imagen 6</td>
+<td><img src="img/galeria 4.jpg" width="300"></td>
+<td><img src="img/Galeria 5.png" width="300"></td>
+<td><img src="img/Galeria 6.png" width="300"></td>
 </tr>
 
 </table>
 
 </section>
 
-
 <section id="contacto">
 
 <h2>Contacto</h2>
 
-<p>Aquí podrás encontrarnos y comunicarte con nosotros.</p>
+<p>Encuéntranos en nuestra ubicación:</p>
+
+<iframe
+ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63455.87642527255!2d-75.65461977832031!3d6.264745000000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44291910ab278d%3A0x67e037388d9742d9!2sParque%20Natural%20Cerro%20El%20Volador!5e0!3m2!1ses-419!2sco!4v1772720690956!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
 
 </section>
 
